@@ -173,6 +173,7 @@ def load(entrada: list or None):
     claves = entrada[1]
     if dfs is None:
         print('Ha ocurrido un error')
+        return
 
     options = webdriver.ChromeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
