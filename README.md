@@ -23,6 +23,12 @@ y un pdf en el que se verán las tablas con las estadísticas de cada jugador de
 
 De igual manera, se ha creado un Dockerfile para crear una imagen que contenga todo el proceso (eso si, una vez introducida la clave de la api).
 Para ejecutarlo, vaya al archivo comandos_docker.txt para una información más detallada.
+
+
 A modo de resumen, recomendamos los siguientes pasos:
+
+
     1. docker build -t nombre_imagen .
+
+
     2. docker run --name nombre_contenedor -v path_absoluto:/usr/src/app nombre_imagen
