@@ -1,0 +1,19 @@
+Ejecutar todo en la carpeta con los contenidos del repositorio
+
+Para crear la imagen:
+    docker build -t nombre_imagen .
+
+Para correr una imagen: (Se podrán combinar los comandos)
+
+    * Para ejecutar un contenedor básico:
+        docker run nombre_imagen
+
+    * Para ejecutar un contenedor con nombre:
+        docker run --name nombre_contenedor nombre_imagen
+
+    * Para ejecutar un contenedor temporal:
+        docker run --rm --name nombre_contenedor nombre_imagen
+
+    ### RECOMENDADO ###
+    * Para ejecutar un contenedor en el que la información persista (guardar el pdf en una ruta local)
+        docker run --name nombre_contenedor -v path_absoluto:/usr/src/app nombre_imagen
