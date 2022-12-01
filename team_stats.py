@@ -172,7 +172,8 @@ def load(entrada: list or None):
     dfs = entrada[0]
     claves = entrada[1]
     if dfs is None:
-        print('Ha ocurrido un error')
+        print('Ha ocurrido un error. Esto puede estar causado por una clave errónea,')
+        print('O porque la api no se encuentre operativa')
         return
 
     options = webdriver.ChromeOptions()
