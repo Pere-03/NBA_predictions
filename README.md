@@ -16,12 +16,8 @@ a la sección de la nba.
 
 Una vez hecho esto, se podrá continuar con la ejecución del proyecto
 
-Para ello, se ejecutará el archivo team_stats.py, que devolverá la predicción por pantalla,
-y un pdf en el que se verán las tablas con las estadísticas de cada jugador del equipo, y una
-última página que tendrá la predicción.
 
-
-De igual manera, se ha creado un Dockerfile para crear una imagen que contenga todo el proceso (eso si, una vez introducida la clave de la api).
+Para ello, se ha creado un Dockerfile para crear una imagen que contenga todo el proceso (eso si, una vez introducida la clave de la api).
 Para ejecutarlo, vaya al archivo comandos_docker.txt para una información más detallada.
 
 
