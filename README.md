@@ -28,3 +28,5 @@ A modo de resumen, recomendamos los siguientes pasos:
 
 
     2. docker run --name nombre_contenedor -v path_absoluto:/usr/src/app nombre_imagen
+
+Si se quisiera ejecutar en local, sería necesario añadir un webdriver de chrome en el path
